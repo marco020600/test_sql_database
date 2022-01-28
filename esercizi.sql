@@ -1,4 +1,4 @@
---1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
+--altra modifica per generare un conflitto
 
 CREATE DATABASE pizzeria_da_luigi;
 
@@ -111,6 +111,6 @@ SELECT DISTINCT date(data_ordine) FROM ordine;
 SELECT totale_ordine FROM ordine
 WHERE totale_ordine BETWEEN 6 AND 8; 
 
---19. Solamente i primi 5 ordini in ordine temporale (dal più recente al più vecchio)
+--19 new. Solamente i primi 5 ordini in ordine temporale (dal più recente al più vecchio)
 
 SELECT * FROM ordine ORDER BY data_ordine DESC LIMIT 5; 
