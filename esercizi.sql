@@ -114,3 +114,24 @@ WHERE totale_ordine BETWEEN 6 AND 8;
 --19 new. Solamente i primi 5 ordini in ordine temporale (dal più recente al più vecchio)
 
 SELECT * FROM ordine ORDER BY data_ordine DESC LIMIT 5; 
+
+--iterazione 2
+
+--1. Rendere l'attributo 'id' della relazione "ordine" una chiave primaria
+
+ALTER TABLE IF EXISTS public.ordine
+    ADD PRIMARY KEY (id);
+
+--2. Rendere il attributo 'id' della relazione "ordine" come autoincrementante
+
+
+/* 3. Crare una relazione "menu" con i seguenti campi: 
+        - id --> numerico 
+        - nome_pizza --> text 
+        - prezzo --> text 
+        - pizza_bianca --> numerico (1 oppure 0)
+        */
+
+-- 4. Rendere l'attributo id della relazione "menu" una chiave primaria autoincrementante */ 
+
+-- 5. Elimina tutti i dati dalla relazione "ordine"
