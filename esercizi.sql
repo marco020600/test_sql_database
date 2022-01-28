@@ -1,4 +1,5 @@
---altra modifica per generare un conflitto
+
+riga per generare un conflitto nel merge
 
 CREATE DATABASE pizzeria_da_luigi;
 
@@ -114,6 +115,7 @@ WHERE totale_ordine BETWEEN 6 AND 8;
 --19 new. Solamente i primi 5 ordini in ordine temporale (dal più recente al più vecchio)
 
 SELECT * FROM ordine ORDER BY data_ordine DESC LIMIT 5; 
+<<<<<<< HEAD
 
 --iterazione 2
 
@@ -135,3 +137,5 @@ ALTER TABLE IF EXISTS public.ordine
 -- 4. Rendere l'attributo id della relazione "menu" una chiave primaria autoincrementante */ 
 
 -- 5. Elimina tutti i dati dalla relazione "ordine"
+=======
+>>>>>>> 2210eaa0744edbb9140fbd76988c9ec22901160c
