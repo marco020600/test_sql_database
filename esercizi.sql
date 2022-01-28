@@ -1,4 +1,4 @@
---1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
+riga per generare un conflitto nel merge
 
 CREATE DATABASE pizzeria_da_luigi;
 
