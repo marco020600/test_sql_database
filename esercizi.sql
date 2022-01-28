@@ -137,5 +137,4 @@ ALTER TABLE IF EXISTS public.ordine
 -- 4. Rendere l'attributo id della relazione "menu" una chiave primaria autoincrementante */ 
 
 -- 5. Elimina tutti i dati dalla relazione "ordine"
-=======
->>>>>>> 2210eaa0744edbb9140fbd76988c9ec22901160c
+
